@@ -1,0 +1,62 @@
+body {
+    font-size: 62.5%;
+    background-color: rgb(211, 236, 255);
+}
+
+.container {
+    background-color: #212529;
+    color: #fff;
+}
+
+
+.container h1 {
+    border-top: solid 1px #1d414b;
+    border-bottom: solid 1px #1d414b;
+    padding: 10px 0;
+}
+
+
+.conversor {
+    background-color: #6c757d;
+    max-width: 40%;
+    margin: 0 auto;
+
+}
+
+
+.elemento-delgado {
+    max-width: 250px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.texto{
+    font-size: 1.1rem;
+}
+#buscar {
+    color: #fff;
+}
+
+#resultado-conversion p {
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+.grafica {
+    width: 100%;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.grafica canvas {
+    background-color: #fff;
+}
+
+@media (max-width:  360px) {
+
+    .conversor{
+        max-width: 100%;
+    }
+}
